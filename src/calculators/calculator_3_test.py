@@ -1,7 +1,8 @@
-from typing import Dict, List
 from pytest import raises
+from typing import Dict, List
 from .calculator_3 import Calculator3
 from src.drivers.interfaces.driver_handler_interface import DriverHandlerInterface
+
 
 class MockRequest:
     def __init__(self, body: Dict) -> None:

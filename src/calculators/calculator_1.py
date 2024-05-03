@@ -2,6 +2,7 @@ from typing import Dict
 from flask import request as FlaskRequest
 from src.errors.http_unprocessable_entity import HttpUnprocessableEntityError
 
+
 class Calculator1:
     '''
         - Um número é dividido em 3 partes iguais
