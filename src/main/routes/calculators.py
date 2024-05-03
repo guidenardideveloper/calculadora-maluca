@@ -18,4 +18,3 @@ def calculator_2():
     response = calc.calculate(request)
     
     return jsonify(response), 200
-
